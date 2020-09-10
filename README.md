@@ -13,7 +13,7 @@
 ## Create_Code
 ### create web api project - scaffold
 
-```dotnet
+```bash
 dotnet new webapi -n myFirstContainer
 dotnet build -p .\myFirstContainer\myFirstContainer.csproj
 dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
@@ -23,20 +23,20 @@ dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
 VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
 
 ## Create_script
+```bash
 ./docker-run.sh
+```
 
 ## Troubleshoot
 
-```bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory``` -  perform the following commands
+*bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory* -  perform the following commands
 
+```bash
 sed -i -e 's/\r$//' docker-run.sh
-
 sudo apt-get install dos2unix
-
 dos2unix docker-run.sh
-
 chmod +x docker-run.sh
-
+```
 
 ## Validate
 
