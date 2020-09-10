@@ -27,7 +27,7 @@ dos2unix docker-run.sh
 chmod +x docker-run.sh
 
 
-## execute
+## Test /Verify
 
 curl http://localhost:4040/WeatherForecast
 
