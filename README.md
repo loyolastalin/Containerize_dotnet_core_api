@@ -22,7 +22,7 @@ dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
 ### Create docker file and dockerignore file - scaffold
 VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
 
-## Create_script (Manual) 
+## Create_script
 ./docker-run.sh
 
 ## Any error occured  
