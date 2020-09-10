@@ -14,9 +14,9 @@
 ### create web api project - scaffold
 
 ```bash
-dotnet new webapi -n myFirstContainer
-dotnet build -p .\myFirstContainer\myFirstContainer.csproj
-dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
+$ dotnet new webapi -n myFirstContainer
+$ dotnet build -p .\myFirstContainer\myFirstContainer.csproj
+$ dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
 ```
 
 ### Create docker file and dockerignore file - scaffold
@@ -29,7 +29,7 @@ VScode-> Command Pallet (Shift+ Ctrl +P) -> docker file to workspace
 ![Cmdline](images/docker_run.png)
 
 ```bash
-./docker-run.sh
+$ ./docker-run.sh
 ```
 
 ## Troubleshoot
@@ -37,15 +37,15 @@ VScode-> Command Pallet (Shift+ Ctrl +P) -> docker file to workspace
 *bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory* -  perform the following commands
 
 ```bash
-sed -i -e 's/\r$//' docker-run.sh
-sudo apt-get install dos2unix
-dos2unix docker-run.sh
-chmod +x docker-run.sh
+$ sed -i -e 's/\r$//' docker-run.sh
+$ sudo apt-get install dos2unix
+$ dos2unix docker-run.sh
+$ chmod +x docker-run.sh
 ```
 
 ## Validate
 ```bash
-curl http://localhost:4040/WeatherForecast
+$ curl http://localhost:4040/WeatherForecast
 ```
 ## debug
 ```docker
