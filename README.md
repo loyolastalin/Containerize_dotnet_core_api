@@ -2,8 +2,11 @@
 
 ## create web api project - scaffold
 dotnet new webapi -n myFirstContainer
+
 dotnet build -p .\myFirstContainer\myFirstContainer.csproj
+
 dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
+
 
 ## Create docker file and dockerignore file - scaffold
 VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
