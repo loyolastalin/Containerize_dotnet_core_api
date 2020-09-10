@@ -24,3 +24,9 @@ curl http://localhost:4040/WeatherForecast
 
 docker exec -it stalin_core_instance sh
 
+## remove
+
+docker stop stalin_core_instance
+
+docker rm -f stalin_core_instance
+
