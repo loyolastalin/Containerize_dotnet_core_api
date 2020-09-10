@@ -25,6 +25,9 @@ VScode-> Command Pallet (Shift+ Ctrl +P) -> docker file to workspace
 
 
 ## Create_script
+
+![Cmdline](images/docker_run.png)
+
 ```bash
 ./docker-run.sh
 ```
