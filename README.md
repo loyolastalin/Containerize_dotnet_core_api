@@ -20,7 +20,9 @@ dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
 ```
 
 ### Create docker file and dockerignore file - scaffold
-VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
+VScode-> Command Pallet (Shift+ Ctrl +P) -> docker file to workspace
+![Cmdline](images/vscode_scaffold.png)
+
 
 ## Create_script
 ```bash
@@ -39,16 +41,16 @@ chmod +x docker-run.sh
 ```
 
 ## Validate
-
+```bash
 curl http://localhost:4040/WeatherForecast
-
+```
 ## debug
-
+```docker
 docker exec -it stalin_core_instance sh
-
+```
 ## remove
-
+```docker
 docker stop stalin_core_instance
-
 docker rm -f stalin_core_instance
+```
 
