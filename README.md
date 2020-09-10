@@ -4,20 +4,20 @@
 
 *   [Project Creation and Build](#Create_Code)
 *   [Script](#Create_script)
-*   [Troubleshoot](#Any error occured)
-*   [Validate Container](#Test /Verify)
+*   [Troubleshoot](#Troubleshoot)
+*   [Validate Container](#Validate)
 *   [Debug Container](#debug)
 *   [Cleanup](#remove)
 
 
 ## Create_Code
 ### create web api project - scaffold
+
+```dotnet
 dotnet new webapi -n myFirstContainer
-
 dotnet build -p .\myFirstContainer\myFirstContainer.csproj
-
 dotnet.exe run -p .\myFirstContainer\myFirstContainer.csproj
-
+```
 
 ### Create docker file and dockerignore file - scaffold
 VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
@@ -25,7 +25,7 @@ VScode-> Command Pallet (Alt+ Control +P) -> docker file to workspace
 ## Create_script
 ./docker-run.sh
 
-## Any error occured  
+## Troubleshoot
 
 ```bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory``` -  perform the following commands
 
@@ -38,7 +38,7 @@ dos2unix docker-run.sh
 chmod +x docker-run.sh
 
 
-## Test /Verify
+## Validate
 
 curl http://localhost:4040/WeatherForecast
 
