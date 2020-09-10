@@ -5,7 +5,7 @@
 
 ## Any error occured  
 
-```bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory``` perform the following commands
+```bash: ./docker-run.sh: /bin/bash^M: bad interpreter: No such file or directory``` -  perform the following commands
 
 sed -i -e 's/\r$//' docker-run.sh
 
