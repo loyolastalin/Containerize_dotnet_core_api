@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\dotnetcore\\Container_App\\myFirstContainer\\myFirstContainer.csproj",
+      "projectUniqueName": "D:\\dotnetcore\\Container_App\\src\\myFirstContainer\\myFirstContainer.csproj",
       "projectName": "myFirstContainer",
-      "projectPath": "D:\\dotnetcore\\Container_App\\myFirstContainer\\myFirstContainer.csproj",
+      "projectPath": "D:\\dotnetcore\\Container_App\\src\\myFirstContainer\\myFirstContainer.csproj",
       "packagesPath": "C:\\Users\\loyola_soosai\\.nuget\\packages\\",
-      "outputPath": "D:\\dotnetcore\\Container_App\\myFirstContainer\\obj\\",
+      "outputPath": "D:\\dotnetcore\\Container_App\\src\\myFirstContainer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
