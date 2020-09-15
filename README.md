@@ -60,6 +60,7 @@ docker rm -f stalin_core_instance
 ```
 
 ## push_docker_hub
+```docker
 docker login --username=$DOCKER_USERNAME -p $DOCKER_PASSWORD
 docker push $IMG_TAG
-
+```
