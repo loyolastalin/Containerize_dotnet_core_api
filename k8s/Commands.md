@@ -13,5 +13,8 @@
   13 kubectl get replicaset
   14 kubectl get secrets
   15 kubectl get ingress
-  minikube docker-env
-  minikube -p minikube docker-env | Invoke-Expression
+  16 minikube docker-env
+  17 minikube -p minikube docker-env | Invoke-Expression
+  18 minikube service list
+  19 minikube service coretest-network --url
+  20 minikube service client-node-port --url
