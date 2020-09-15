@@ -8,6 +8,7 @@
 *   [Validate Container](#Validate)
 *   [Debug Container](#debug)
 *   [Cleanup](#remove)
+*   [push_docker_hub](#push_docker_hub)
 *   [Kubernetees-Minikube](Kubernetees-Minikube.md)
 
 
@@ -52,9 +53,13 @@ $ curl http://localhost:4040/WeatherForecast
 ```docker
 docker exec -it stalin_core_instance sh
 ```
-## remove
+## remove local
 ```docker
 docker stop stalin_core_instance
 docker rm -f stalin_core_instance
 ```
+
+## push_docker_hub
+docker login --username=$DOCKER_USERNAME -p $DOCKER_PASSWORD
+docker push $IMG_TAG
 
