@@ -5,3 +5,6 @@ kubectl apply -f .\k8s\k8s_deployment.yml
 kubectl apply -f .\k8s\k8s_services.yml     
 
 curl http://{"$MINIKUBE_IP:$PORT/WeatherForecast"}
+
+# Other debugging imperative commands
+# 
