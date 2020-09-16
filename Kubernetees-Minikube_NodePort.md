@@ -6,7 +6,7 @@ Exposes a container to the outside through kubeproxy
 
 ## create kubernetees container 
 ```docker
-kubectl apply -f .\k8s
+kubectl apply -f .\k8s\NodePort
 ```
 ## expose service outside
 ![Cmdline](images/minikube_coretest_run.JPG)
