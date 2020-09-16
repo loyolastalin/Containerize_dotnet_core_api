@@ -1,5 +1,3 @@
-# Execute the bellow steps in a terminal
-
 #### Table of Contents
 
 *   [Project Creation and Build](#Create_Code)
