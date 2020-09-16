@@ -9,8 +9,8 @@ Exposes a container to the outside through kubeproxy
 kubectl apply -f .\k8s
 ```
 ## expose service outside
-![Cmdline](minikube_coretest_run.JPG)
+![Cmdline](images/minikube_coretest_run.JPG)
 
 ## Verify using  Postman
 
-![Cmdline](coretest_result_postman.JPG)
+![Cmdline](images/coretest_result_postman.JPG)
