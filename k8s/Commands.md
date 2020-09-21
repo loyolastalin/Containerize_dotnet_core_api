@@ -1,3 +1,4 @@
+  ```bash
    1 kubectl get nodes
    2 minikube status
    3 kubectl get deployments
@@ -18,3 +19,4 @@
   18 minikube service list
   19 minikube service coretest-network --url
   20 minikube service client-node-port --url
+  ```
