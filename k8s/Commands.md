@@ -36,6 +36,11 @@
   
   
   # Service
+  
+  ## Get all the service
+  kubectl get svc
+  ## Create a service for the deployment = simple-webapp-deployment with the Type = NodePort TartgetPort =8080 
+  kubectl expose deployment simple-webapp-deployment --name=webapp-service --type=NodePort --target-port=8080 --port=8080 --dry-run=client -o yaml > testing-service.yaml
   ```bash
    1 kubectl get nodes
    2 minikube status
