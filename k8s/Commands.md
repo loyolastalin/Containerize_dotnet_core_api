@@ -1,8 +1,8 @@
   # PODS
   ```bash
-  1. Get all the pods in the K8s cluster
+  ## 1. Get all the pods in the K8s cluster
   kubectl get pods
-  2. Create a pod name with testing and image nginx
+  ## 2. Create a pod name with testing and image nginx
   kubectl run testing --image=nginx
   3. Get the pod contians, how many images and the image names
   kubectl descibe pod testing
@@ -17,7 +17,11 @@
   8. Find the image name of the POD
   kubectl descibe pod testing | grep -i image  
   ```
+  # ReplicaSet
   
+  # Deployment
+  
+  # Service
   ```bash
    1 kubectl get nodes
    2 minikube status
