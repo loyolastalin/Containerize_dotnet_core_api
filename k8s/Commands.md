@@ -17,9 +17,12 @@
   ### 8. Find the image name of the POD
   kubectl descibe pod testing | grep -i image  
 
-  # ReplicaSet
-  
-  # Deployment
+  # Deployment & ReplicaSet
+  ## how to create deployment file with name = stalin and image = nginx
+  kubectl create deployment stalin --image=nginx --dry-run=client -o yaml > deployment-def.yaml
+  ## how to scale replica set as 4
+  1. Open the file in editor change the replicas and run the file 
+  2. Run the file and scale using scale command => kubectl scale deployment --replicas=4 stalin
   
   # Service
   ```bash
