@@ -33,6 +33,8 @@
   kubectl create ns teststalin
   ## Get pods name blue under which namespace it is available
    kubectl get pods --all-namespaces | grep blue
+  ## Gets all the system pods 
+  kubectl -n kube-system get pods
   
   
   # Service
