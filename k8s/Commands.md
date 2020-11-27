@@ -1,3 +1,15 @@
+  # PODS
+  ```bash
+  kubectl get pods
+  kubectl run testing --image=nginx
+  kubectl descibe pod testing
+  kubectl run redis --image=redis123 --dry-run=client -o yaml > first.yaml
+  kubectl apply -f first.yaml
+  kubectl edit pod redis
+  kubectl get pods -o wide
+  kubectl descibe pod testing | grep -i image  
+  ```
+  
   ```bash
    1 kubectl get nodes
    2 minikube status
@@ -19,4 +31,5 @@
   18 minikube service list
   19 minikube service coretest-network --url
   20 minikube service client-node-port --url
+  21 
   ```
