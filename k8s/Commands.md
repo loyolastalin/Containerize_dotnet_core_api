@@ -1,12 +1,20 @@
   # PODS
   ```bash
+  1. Get all the pods in the K8s cluster
   kubectl get pods
+  2. Create a pod name with testing and image nginx
   kubectl run testing --image=nginx
+  3. Get the pod contians, how many images and the image names
   kubectl descibe pod testing
+  4. Create a pod name as redis and wrong image redis123, create a yaml file based on the configuration without executing
   kubectl run redis --image=redis123 --dry-run=client -o yaml > first.yaml
+  5. Create the POD
   kubectl apply -f first.yaml
+  6. Modify the correct image name of the running pod
   kubectl edit pod redis
+  7. Determine the POD running in which node?
   kubectl get pods -o wide
+  8. Find the image name of the POD
   kubectl descibe pod testing | grep -i image  
   ```
   
